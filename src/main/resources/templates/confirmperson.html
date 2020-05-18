@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>confirm person</title>
+</head>
+<body>
+    <p th:inline="text">
+        The person's first name was [[${person.firstName}]].<br />
+        The person's last name was [[${person.lastName}]].<br />
+        The person's email address was [[${person.email}]].<br />
+        The person's phone number was [[${person.phone}]].<br />
+        The person's address was [[${person.city}]], [[${person.state}]], [[${person.zip}]]
+    </p>
+</body>
+</html>
